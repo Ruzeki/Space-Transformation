@@ -29,6 +29,10 @@ void setup()   {
 
 void loop()                     
 {
+  //test 3
+  
+  digitalWrite(ledPin, LOW);   // set the LED on
+  delay(3000);
   digitalWrite(ledPin, HIGH);   // set the LED on
   delay(3000);
   digitalWrite(ledPin, LOW);   // set the LED on
